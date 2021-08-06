@@ -1,3 +1,4 @@
+//usr/bin/clang++ -O3 -std=c++11 "$0" && ./a.out; exit
 #include <iostream>
 #include <string>
 #include <bits/stdc++.h>

@@ -1,3 +1,4 @@
+//usr/bin/clang++ -O3 -std=c++11 "$0" && ./a.out; exit
 #include<bits/stdc++.h>
 using namespace std;
 

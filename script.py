@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 name="Adegite Adejuwon"
 email="adegiteadejuwon@gmail.com"
 slackusername="@AAdejuwon"

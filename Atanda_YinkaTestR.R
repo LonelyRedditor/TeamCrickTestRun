@@ -1,3 +1,4 @@
+#!/usr/bin/env Rscript
 Name <- ("Atanda Yinka Habeeb")
 Email <- ("Ayinka13@gmail.com")
 Slack_username <- ("@Atanda_Yinka")

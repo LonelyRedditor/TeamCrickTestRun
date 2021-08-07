@@ -9,11 +9,11 @@ function hammingDist($str1, $str2)
 	$lengthstr1 = strlen($str1);
 	$lengthstr2 = strlen($str2);
 
-    if ($lengthstr1 > $lengthstr2)	
-		$space = $lengthstr1;
-	else
+    if ($lengthstr1 > $lengthstr2){
+		$space = $lengthstr1;}
+	else{
 		$space = $lengthstr2;
-	
+    }
     while ($i < $space) 
 	{
         if ($str1[$i] != $str2[$i])
@@ -28,7 +28,7 @@ function hammingDist($str1, $str2)
     $str2 = "@Rachna";
  
     // function call
-	 $value= hammingDist ($str1, $str2);
+	$value= hammingDist ($str1, $str2);
 	// echo $value;
 
 $list = array (

@@ -14,7 +14,7 @@ function hammingDist($str1, $str2)
 	else{
 		$space = $lengthstr2;
     }
-    while ($i < $space) 
+    while ($i < $space-1) 
 	{
         if ($str1[$i] != $str2[$i])
             $count++;
@@ -39,7 +39,9 @@ $list = array (
 $fp = fopen('filephp.csv', 'w');
 
 foreach ($list as $fields) {
-    fputcsv($fp, $fields);echo $fields;echo ",";
+    echo $fields;
+    echo ",";
+    fputcsv($fp, $fields);
 }
 #print "your file is created";
 fclose($fp);

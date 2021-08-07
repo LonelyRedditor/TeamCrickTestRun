@@ -4,11 +4,11 @@ email="adegiteadejuwon@gmail.com"
 slackusername="@AAdejuwon"
 biostack="Genomics"
 twitterhandle="@A_Adegite"
-print(name)
-print(email)
-print(slackusername)
-print(biostack)
-print(twitterhandle)
+print(name, end=',')
+print(email, end=',')
+print(slackusername, end=',')
+print(biostack, end=',')
+print(twitterhandle, end=',')
 
 slackusername = "@AAdejuwon"
 twitterhandle = "@A_Adegite"

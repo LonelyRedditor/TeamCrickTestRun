@@ -10,8 +10,8 @@ slack_username = "@maryam,"
 biostack = "genomics,"
 twitter_handle = "@maryamahmadu108,"
 hamming_distance = 0
-print(name,email_address, slack_username, biostack, twitter_handle, hamming_distance)
-
+#print(name,email_address,slack_username, biostack, twitter_handle, hamming_distance)
+print(",".join([name,email_address,slack_username, biostack, twitter_handle, hamming_distance]))
 
 # In[2]:
 
@@ -31,7 +31,8 @@ str1 = "@maryam"
 str2 = "@maryamahmadu108"
  
 # function call
-print(hammingDist(str1, str2))
+hammingDist(str1, str2)
+#print(hammingDist(str1, str2))
 
 
 # In[ ]:

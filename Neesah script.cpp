@@ -16,11 +16,11 @@ int hammingDist(char *str1, char *str2)
 
 int main()
 {   
-        cout << "Anisa Ishaq-Balogun \nanisabalog0908@gmail.com\n@NerdyNeesahh\nGenomics\n@Nerdy_Neesah" << endl;
+        cout << "Anisa Ishaq-Balogun,anisabalog0908@gmail.com,@NerdyNeesahh,Genomics,@Nerdy_Neesah";
 	char str1[] = "@NerdyNeesahh";
 	char str2[] = "@Nerdy_Neesah";
 
-	cout << hammingDist (str1, str2);
+	cout << hammingDist (str1, str2) << endl;
 
 	return 0;
 }

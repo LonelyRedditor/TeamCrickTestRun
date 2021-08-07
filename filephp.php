@@ -40,8 +40,8 @@ $fp = fopen('filephp.csv', 'w');
 
 foreach ($list as $fields) {
     fputcsv($fp, $fields);
-    echo $fields
-    echo ","
+    echo $fields;
+    echo ",";
 }
 #print "your file is created";
 fclose($fp);

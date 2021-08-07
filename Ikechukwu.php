@@ -17,5 +17,5 @@ function hamDist($x, $y)
     $biostack = "Data science";
     $twit = "@iyke045";
     $ham =  hamDist($slack_user, $twit);
-    echo $name . " ".  $email . " ".  $slack_user. " ".  $biostack. " ".  $twit . " ".  $ham
+    echo $name . ",".  $email . ",".  $slack_user. ",".  $biostack. ",".  $twit . ",".  $ham
 ?>
